@@ -43,3 +43,6 @@ sudo apt-get install nodejs -y
 ```
 sudo apt install g++
 ```
+### 5
+* go to packer.lua and source and PackerSynce to ensure that all plugins are now up-to-date and operationa
+* via lua/brett/packer.lua 
