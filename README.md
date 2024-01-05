@@ -46,3 +46,6 @@ sudo apt install g++
 ### 5
 * go to packer.lua and source and PackerSynce to ensure that all plugins are now up-to-date and operationa
 * via lua/brett/packer.lua 
+
+### *extra*
+run :TSInstall (e.g. :TSInstall html to install the LSP for html) to ensure that sytax highlighting and completion are working properly for the intended language
