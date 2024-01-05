@@ -23,9 +23,12 @@ lsp_zero.set_sign_icons({
 })
 
 
-require('mason').setup({})
+require('mason').setup({
+    ensure_installed = {'autoflake', 'prettier'}
+})
+
 require('mason-lspconfig').setup({
-  ensure_installed = {'tsserver', 'rust_analyzer','pyright'},
+  ensure_installed = {'tsserver', 'rust_analyzer','pyright', 'pylsp','clangd'},
   handlers = {
     lsp_zero.default_setup,
     lua_ls = function()

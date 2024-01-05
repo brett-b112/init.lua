@@ -89,6 +89,11 @@ _G.packer_plugins = {
     path = "/home/brett/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
+  ["formatter.nvim"] = {
+    loaded = true,
+    path = "/home/brett/.local/share/nvim/site/pack/packer/start/formatter.nvim",
+    url = "https://github.com/mhartington/formatter.nvim"
+  },
   ["gruvbox.nvim"] = {
     loaded = true,
     path = "/home/brett/.local/share/nvim/site/pack/packer/start/gruvbox.nvim",
