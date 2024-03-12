@@ -27,15 +27,9 @@ return require('packer').startup(function(use)
   use{'mbbill/undotree'}
   -- This iinstalls fugitive plugin
   use{'tpope/vim-fugitive'}
-  -- This installs lsp-zero
-  use {'mhartington/formatter.nvim'}
   --This installs formater.nvim
-  -- use{
-  --     'prettier/vim-prettier',
-  --     run = 'npm install' ,
-  --     ft = {'javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'svelte', 'yaml', 'html'}
--- }
-  --This installs prettier
+  use {'mhartington/formatter.nvim'}
+  -- This installs lsp-zero
   use {
   'VonHeikemen/lsp-zero.nvim',
   branch = 'v3.x',

@@ -34,11 +34,6 @@ vim.opt.colorcolumn = "80"
 
 vim.g.mpaleader = " "
 
-
-
-
-
-
-
-
-
+-- This highlights the current line in vim
+-- The underline for the current line is in files
+vim.opt.cursorline = true
