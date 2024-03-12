@@ -15,8 +15,8 @@ return require('packer').startup(function(use)
 	  -- or                            , branch = '0.1.x',
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
-  --This installs gruvbox colorscheme
-  use { "ellisonleao/gruvbox.nvim" }
+  --This installs catpuccin colorscheme
+  use { "catppuccin/nvim", as = "catppuccin" }
   -- This installs tresitter plugin
   use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
   -- This installs tresitter playground
@@ -49,4 +49,6 @@ return require('packer').startup(function(use)
     use('tpope/vim-commentary')
 -- This installs emmett for vim
     use('mattn/emmet-vim')
+--This installs vim tmux navigator that will allow you to use vim keybindings for tmux
+    use{'christoomey/vim-tmux-navigator'}
 end)
