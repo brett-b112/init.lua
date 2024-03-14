@@ -18,7 +18,7 @@ return require('packer').startup(function(use)
   --This installs catpuccin colorscheme
   use { "catppuccin/nvim", as = "catppuccin" }
   -- This installs tresitter plugin
-  use ('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
+  use ({'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"})
   -- This installs tresitter playground
   use{'nvim-treesitter/playground'}
   -- This installs harpoon plugin

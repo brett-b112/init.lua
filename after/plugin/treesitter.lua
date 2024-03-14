@@ -1,3 +1,4 @@
+-- Ensure that you run :TSUpdate frequently
 require'nvim-treesitter.configs'.setup {
     -- if vue is not installed might have to run :TSInstall vue to fix some color issues
   -- A list of parser names, or "all" (the five listed parsers should always be installed)
