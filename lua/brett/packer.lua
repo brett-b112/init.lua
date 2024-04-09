@@ -22,8 +22,13 @@ return require('packer').startup(function(use)
   -- This installs tresitter playground
   use{'nvim-treesitter/playground'}
   -- This installs harpoon plugin
-  use{'theprimeagen/harpoon'}
-  --This installs undotree
+    use {"nvim-lua/plenary.nvim"} -- don't forget to add this one if you don't have it yet!
+    use {
+        "ThePrimeagen/harpoon",
+        branch = "harpoon2",
+        requires = { {"nvim-lua/plenary.nvim"} }
+    }
+  --This installs undotreee
   use{'mbbill/undotree'}
   -- This iinstalls fugitive plugin
   use{'tpope/vim-fugitive'}
