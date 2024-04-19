@@ -1,5 +1,5 @@
 function ColorMyPencils(color)
-	color = color or "catppuccin-mocha"
+	color = color or "catppuccin-frappe"
     -- colorscheme catppuccin " catppuccin-latte, catppuccin-frappe, catppuccin-macchiato, catppuccin-mocha
 	vim.cmd.colorscheme(color)
     -- This sets the cursor highlight to be an underline
