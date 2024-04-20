@@ -1,3 +1,4 @@
+--[[
 -- Utilities for creating configurations
 local util = require "formatter.util"
 
@@ -38,3 +39,5 @@ require("formatter").setup {
 vim.api.nvim_create_autocmd({ "BufWritePost" }, {
   command = "FormatWriteLock"
 })
+
+]]--

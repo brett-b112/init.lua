@@ -33,7 +33,8 @@ return require('packer').startup(function(use)
   -- This iinstalls fugitive plugin
   use{'tpope/vim-fugitive'}
   --This installs formater.nvim
-  use {'mhartington/formatter.nvim'}
+  -- Removed this so that I am forced to work with better practices
+  -- use {'mhartington/formatter.nvim'}
   -- This installs lsp-zero
   use {
   'VonHeikemen/lsp-zero.nvim',

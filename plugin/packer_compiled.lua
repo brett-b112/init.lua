@@ -94,11 +94,6 @@ _G.packer_plugins = {
     path = "/Users/brettbalquist/.local/share/nvim/site/pack/packer/start/emmet-vim",
     url = "https://github.com/mattn/emmet-vim"
   },
-  ["formatter.nvim"] = {
-    loaded = true,
-    path = "/Users/brettbalquist/.local/share/nvim/site/pack/packer/start/formatter.nvim",
-    url = "https://github.com/mhartington/formatter.nvim"
-  },
   harpoon = {
     loaded = true,
     path = "/Users/brettbalquist/.local/share/nvim/site/pack/packer/start/harpoon",
