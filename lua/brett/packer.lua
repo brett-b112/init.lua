@@ -16,7 +16,7 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
   --This installs catpuccin colorscheme
-  use { "catppuccin/nvim", as = "catppuccin" }
+  use { "rose-pine/neovim", as = "rose-pine" }
   -- This installs tresitter plugin
   use ({'nvim-treesitter/nvim-treesitter', run = ":TSUpdate"})
   -- This installs tresitter playground

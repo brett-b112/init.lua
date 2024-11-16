@@ -25,15 +25,22 @@ vim.opt.undofile = true
 vim.opt.termguicolors = true
 
 vim.opt.scrolloff = 8
-vim.opt.signcolumn = "yes"
+vim.opt.signcolumn = "no"
 vim.opt.isfname:append("@-@")
 
 vim.opt.updatetime = 50
 
-vim.opt.colorcolumn = "80"
+-- This is right side column
+vim.opt.colorcolumn = "100"
 
 vim.g.mpaleader = " "
 
 -- This highlights the current line in vim
 -- The underline for the current line is in files
 vim.opt.cursorline = true
+
+-- Enable copying form vim to system-clipboard 
+vim.opt.clipboard = unnamedplus
+
+-- Auto reload the buffer when saving
+vim.opt.autoread = true
